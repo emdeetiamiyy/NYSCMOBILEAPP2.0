@@ -1,0 +1,4344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NYSC MOBILE APPLICATION</title>
+        <!-- All Stylesheets -->
+        <link rel="stylesheet"  href="css/All-Stylesheets.css">
+        <!-- Add 2 Home -->
+        <link rel="apple-touch-icon" href="images/add-to-home/touch-icon-iphone.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="images/add-to-home/touch-icon-ipad.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="images/add-to-home/touch-icon-iphone4.png" />
+        <link rel="icon" type="image/png" href="icon.png" />
+<script language="javascript" type="text/javascript">
+function playSound(soundfile) {
+  document.getElementById("dummy").innerHTML=
+    "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+}
+</script>
+        
+        <script type="text/javascript" src="js/add2home.js" charset="utf-8"></script>
+        <!-- Javascript File -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <!-- Donut Chart -->
+        <script type="text/javascript" src="js/jquery.donutchart.js"></script>
+        <!-- jQuery Mobile -->
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <!-- Glyphicons -->
+        <script type="text/javascript" async src="js/glyphicons/ga.js"></script>
+    </head>
+    <body>
+        <!-- Page Contents Starts
+            ================================================== -->
+        <div data-role="page" id="page" data-theme="">
+            <!-- header Starts -->
+            <div data-role="header" data-theme="g" class="header">
+                <h1><a href="index.html" rel="external">NYSC APP</a></h1>
+             <a href="#left-panel" data-shadow="false" ><i class="fa fa-indent fa-2x"></i></a>
+             <a href="#right-panel" data-shadow="false" ><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+            <!-- header Ends -->
+            <div data-role="content">
+                <!-- Security Tips Starts -->
+             <h1 class="icon-heading"> <b>IGBO LANGUAGE</b></h1>
+
+<!--///////////HAUSA TABLE ///////////////////////////	-->
+
+
+ <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">General Greetings</b></h3>
+      	<table data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">            
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th>1</th>
+             <td>Good morning? <hr> <b style="color:#156E19">RESPONSE:</b> Good morning </td>
+             <td>Iputawo Ura Ututu Oma  Iboola Chi Chi  <hr> <b style="color:#F00"> Ee Iputawo O, Ututu  Oma, Ibool</b></td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g1_1.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>
+           </tr>
+           <tr>
+             <th>2</th>
+            <td>How are you <hr>  <b style="color:#156E19">RESPONSE:</b> I am alright, fine</td>
+             <td>Keduka I Mere? Kedu?<hr> <b style="color:#F00"> RESPONSE: </b> A di m mma, O di mma</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g1_3.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>
+           </tr>
+		   
+           <tr>
+             <th>3</th>
+             <td>Good afternoon<hr>  <b style="color:#156E19">RESPONSE:</b>  Good afternoon</td>
+             <td>Ehihie-Oma; Ndewo <hr><b style="color:#F00"> RESPONSE: </b> Ehihie-oma, O, Ndewo</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g2_1.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>
+           </tr>
+		  
+           <tr>
+             <th>4</th>
+            <td> How is the day <hr> <b style="color:#156E19">RESPONSE:</b> It''s fine</td>
+             <td>Kedu Ka Ubochi Di?<hr><b style="color:#F00"> RESPONSE: </b> O di mma </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g2_3.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>          
+           </tr>
+		  
+           <tr>
+             <th>5</th>
+            <td>Good evening<hr> <b style="color:#156E19">RESPONSE:</b>  Good evening</td>
+       <td>Mgbede-Oma; Deme O <hr><b style="color:#F00"> RESPONSE: </b> Mgbede-oma; Deme o	</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g3_1.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>           
+           </tr>
+		   
+           <tr>
+             <th>6</th>
+           <td>How are you?<hr> <b style="color:#156E19">RESPONSE:</b>  I am alright </td>
+             <td>Kedu Ka I Mere <hr><b style="color:#F00"> RESPONSE: </b>A di m mma</td>
+           <td>
+           <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g3_3.mp3');"  aria-disabled="false"  value="PLAY" />  </td>             
+           </tr>
+		   
+           <tr>
+             <th>7</th>
+           <td>Good night <hr> <b style="color:#156E19">RESPONSE:</b>  Good night</td>
+             <td>Ka Chi Foo,  Ka Chi Boo <hr><b style="color:#F00"> RESPONSE: </b>O, ka chi foo O, ki chi boo</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g3_5.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>        
+           </tr>
+		  
+           <tr>
+             <th>8</th>
+ 			<td>Welcome <hr>  <b style="color:#156E19">RESPONSE:</b> Thank you </td>
+             <td>Nno <hr><b style="color:#F00"> RESPONSE: </b> O, dalu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g4_1.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>            
+           </tr>
+		  
+           <tr>
+             <th>9</th>
+            <td>Have you arrived? <hr> <b style="color:#156E19">RESPONSE:</b>  Yes </td>
+             <td>I Batawo? I Lotala <hr> <b style="color:#F00"> RESPONSE: </b> Ee, demem Ee, daalu </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g4_3.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>           
+           </tr>
+		   
+           <tr>
+             <th>10</th>
+         <td>How was your journey? <hr> <b style="color:#156E19">RESPONSE:</b>  It was good </td>
+             <td>Ezio Dikwa Mma? Kedu Ka Ije Di? <hr><b style="color:#F00"> RESPONSE: </b> Ezi di m ma; Ije di  mma O dim ma, nnoo</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g4_5.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>        
+           </tr>
+		  
+		   <tr >
+             <th>11</th>
+            <td>What of your papa? <hr> <b style="color:#156E19">RESPONSE:</b>  He is alright</td>
+             <td>Kedu ma ka nna gi? <hr> <b style="color:#F00"> RESPONSE: </b> O di m ma, O no </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g4_7.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>        
+           </tr>
+		   
+		   <tr >
+             <th>12</th>
+            <td>How about your  mama? <hr> <b style="color:#156E19">RESPONSE:</b>  She is fine</td>
+             <td>Kedu maka nne gi? <hr><b style="color:#F00"> RESPONSE: </b> Allah ya kai mu, Amin </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g5_1.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>      
+           </tr>
+		   
+		   <tr >
+             <th>13</th>
+   			 <td>What of your brother? <hr>  <b style="color:#156E19">RESPONSE:</b> He is alright </td>
+             <td>Kedu maka nwanne gi  nwoke? <hr><b style="color:#F00"> RESPONSE: </b> O di mma, O no</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g5_3.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>          
+           </tr>
+		   <tr >
+             <th>14 </th>
+             <td>May you live long <hr>  <b style="color:#156E19">RESPONSE:</b> She is fine </td>
+             <td>Kedu maka nwanne gi  nwanyi? <hr><b style="color:#F00"> RESPONSE: </b> O di mma, O no </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g5_5.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>         
+           </tr>
+		   
+		   <tr >
+             <th>15</th>
+          <td>What of your husband? <hr>  <b style="color:#156E19">RESPONSE:</b> He is alright</td>
+           <td>Kedu maka di gi<hr><b style="color:#F00"> RESPONSE:</b> O di mma , O no</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g5_7.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>          
+           </tr>
+		  
+		   <tr >
+             <th>16</th>
+          <td>What of your wife? <hr> <b style="color:#156E19">RESPONSE:</b>  She is well </td>
+             <td>Kedu maka nwunye  gi?<hr> <b style="color:#F00"> RESPONSE: </b>O di mma , O no</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/greetimg/g5_9.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>      
+           </tr>
+		   
+		   <tr >
+             <th>17</th>
+       			<td>How is your child? <hr> <b style="color:#156E19">RESPONSE:</b> He is alright </td>
+             <td>Nwa gi kwanu <hr><b style="color:#F00"> RESPONSE: </b> Ha di mma, O no</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/ ');"  aria-disabled="false"  value="PLAY" />  
+              </td>     
+           </tr>
+		   
+		   <tr >
+             <th>18</th>
+             <td>How are your  children? <hr>  <b style="color:#156E19">RESPONSE:</b> They are well</td>
+          <td>Umu gi kwanu? <hr> <b style="color:#F00"> RESPONSE: </b>Ha di mma , Hano	</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/ ');"  aria-disabled="false"  value="PLAY" />  
+              </td>     
+           </tr>
+		   
+		   <tr >
+             <th>19</th>
+       		<td>What of your friends <hr> <b style="color:#156E19">RESPONSE:</b>  They are alright</td>
+             <td>Ndi enyi gi kwanu? <hr><b style="color:#F00"> RESPONSE: </b> Ha di mma , Hano </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/ ');"  aria-disabled="false"  value="PLAY" />  
+              </td>          
+           </tr>
+		   
+		   <tr >
+             <th>20</th>
+             <td>What of your friends <hr>  <b style="color:#156E19">RESPONSE:</b> They are alright</td>
+             <td>Asaoka lafiya<hr><b style="color:#F00"> RESPONSE: </b> Ha di mma , Hano</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/ ');"  aria-disabled="false"  value="PLAY" />  
+              </td>           
+           </tr>
+		
+		</tbody>
+       </table>
+</div>	   	   	  
+              <!-- End of General Greetings -->
+              
+              <!-- General Requests --> 
+     <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Making Enquiries</b></h3>     
+			<table data-role="table" id="table-column-toggle1" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th>1</th>
+             <td>What is your name? </td>
+             <td>Giru bu aha gi?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_1.mp3');"  aria-disabled="false"  value="PLAY" />  </td>
+           </tr>
+           <tr>
+             <th>2</th>
+            <td>What is happening?</td>
+             <td>Gini na-eme?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_2.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>
+           </tr>
+		   
+           <tr>
+             <th>3</th>
+             <td>What do you want?</td>
+             <td>Gini ka ichOrO?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_3.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>
+           </tr>
+		  
+           <tr>
+             <th>4</th>
+            <td> Which one do you want?</td>
+             <td>Kedu nke ichOrO? </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_4.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>          
+           </tr>
+		  
+           <tr>
+             <th>5</th>
+            <td>Which one is good?	</td>
+             <td>Kedu nke di mma?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_5.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>           
+           </tr>
+		   
+           <tr>
+             <th>6</th>
+           <td>Who is that?</td>
+             <td>Onye di ihe ahu?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_6.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>             
+           </tr>
+		   
+           <tr>
+             <th>7</th>
+           <td>Who is calling me?</td>
+             <td>Onye na-akpO m?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_7.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>        
+           </tr>
+		  
+           <tr>
+             <th>8</th>
+ 			<td>Who wants to go?	</td>
+             <td>Onye choroiga?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_8.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>            
+           </tr>
+		  
+           <tr>
+             <th>9</th>
+            <td>Where are you going?</td>
+             <td>Ebee ka ina-aga?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_9.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>           
+           </tr>
+		   
+           <tr>
+             <th>10</th>
+         <td>Where do you live? </td>
+             <td>Ebee ka ibi?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_10.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>        
+           </tr>
+		  
+		   <tr >
+             <th>11</th>
+            <td>Where did you see the C.I.?</td>
+             <td>O lee ebe ihuru C.I.?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_11.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>        
+           </tr>
+		   
+		   <tr >
+             <th>12</th>
+            <td>How are you? </td>
+             <td>Kedu ki I di? </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_12.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>      
+           </tr>
+		   
+		   <tr >
+             <th>13</th>
+   			 <td>How do we do it?</td>
+             <td>Kedu ka anyi ga-esi me ya?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_13.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>          
+           </tr>
+		   <tr >
+             <th>14 </th>
+             <td>How is it?</td>
+             <td>Kedu ka O di?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r1_14.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>         
+           </tr>
+		   
+		   <tr >
+             <th>15</th>
+          <td>How much is it?</td>
+           <td>Ole ka-o bu?/o bu o le?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>          
+           </tr>
+		  
+		   <tr >
+             <th>16</th>
+          <td>How much did you buy it	</td>
+             <td>O le ka izuru ya?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>      
+           </tr>
+		   
+		   <tr >
+             <th>17</th>
+       			<td>How much do you have? </td>
+             <td>Ole ka inwere?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>     
+           </tr>
+		   
+		   <tr >
+             <th>18</th>
+             <td>How many people are there?</td>
+             <td>Mmadu ole no ebe ahu?	</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>     
+           </tr>
+		   
+		   <tr >
+             <th>19</th>
+       		<td>How many children have you? </td>
+             <td>Umu ole ka I nwere? </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>          
+           </tr>
+		   
+		   <tr >
+             <th>20</th>
+             <td>How many wives does your father have? </td>
+             <td>Nwuuye ole ka nna gi nwere?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>           
+           </tr>
+		   
+		   <tr >
+             <th> 21</th>
+            <td>Can you do it?  </td>
+             <td>I nwere ike ime ya?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>           
+           </tr>
+		  
+		   <tr >
+             <th>22</th>
+             <td>Can you find it for ma? </td>
+             <td>I nwere ike I chotaa ram ya?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>           
+           </tr>
+		   
+		   <tr >
+             <th> 23</th>
+             <td>Can you find it?</td>
+             <td>I nwere ike I chotaa ya?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>          
+           </tr>
+		   
+		   <tr >
+             <th>24 </th>
+             <td>When are you going?</td>
+             <td>Olee mgbe ina-aga? </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>            
+           </tr>
+		   
+		   <tr >
+             <th>25 </th>
+            <td> Why did you do it?</td>
+             <td>Maka gini ka I jiri mee ya? </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>           
+           </tr>
+		  
+		   <tr >
+             <th>26 </th>
+            <td>Why are you late?</td>
+             <td>Maka gini ka I jiri ghara ibia noge?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>           
+           </tr>
+		  
+		   <tr >
+             <th>27 </th>
+            <td>Whose book is this? </td>
+             <td>Akwukwo onye di nkaa? </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+		  
+            <tr >
+             <th>28 </th>
+            <td>Whose child is this?</td>
+             <td> Nwa onye bu nka? </td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r2_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	   
+    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Office Situation</b></h3>     
+	<table data-role="table" id="table-column-toggle2" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+ 
+             <tr >
+             <th>1 </th>
+            <td>I am Mr. Okonkwo</td>
+             <td>Abu m Mazi Okonkwo?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+             <tr >
+             <th>2 </th>
+            <td>I am sent to work in your Ministry</td>
+             <td>Ezitere m ka m luo olu na ministry gi</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+             <tr >
+             <th>3 </th>
+            <td>I read Chemistry</td>
+             <td>Agu?ru? m kemistiri</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+             <tr >
+             <th>4</th>
+            <td> Who is the head here please?</td>
+             <td>Biko, kedu onye buonye isi ebea?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+             <tr >
+             <th>5 </th>
+            <td>What is my work? </td>
+             <td>Kedu ihe bu olu m?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>6</th>
+            <td>I don't want to be idle</td>
+             <td>Achoghi m inoro nkiti</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>7</th>
+            <td>Where is my table? Or will you  give me an office?</td>
+             <td>Kedu tebul nke m? Ka iga enye m ofisi? </td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>8</th>
+            <td>Bring the letter please</td>
+             <td>Biko weta leta ahu</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>9 </th>
+            <td>Come and answer your phone call</td>
+             <td>Bia zaa oku ana akpo gin a waya</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+     			</td>         
+           </tr>
+           
+            <tr>
+             <th>10 </th>
+            <td>Secretary, you are wanted</td>
+             <td>Ode akwukwo, achoro gi.</td>
+              <td> 
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r3_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+     		</td>         
+           </tr>
+           
+	    </tbody>        
+       </table>       
+       </div>   
+	    
+	   
+	    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">School Situations</b></h3>     
+			<table data-role="table" id="table-column-toggle4" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    
+           
+            <tr >
+             <th>1</th>
+            <td>I am your new teacher</td>
+             <td>Abu m onye nkuzi ohuru unu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>2 </th>
+            <td>I will teach you Government </td>
+             <td>Aga m akuziri unu Govment</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>3 </th>
+            <td>Tell me your names</td>
+             <td>Gwanu m aha unu</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>4 </th>
+            <td>Where did you stop in this book?</td>
+             <td>Kedu ebe unu kwusiri n''akwukwo unu a?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+             <tr >
+             <th>5 </th>
+            <td>Where are the other students?</td>
+             <td>Olee umu akwukwo ndi ozo?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+           <tr >
+             <th>6 </th>
+            <td>Who has a question?</td>
+             <td>Onye nwere ajuju?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+           <tr >
+             <th>7 </th>
+            <td>Who does not understand?</td>
+             <td>Kedu onye aghotaghi?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>8 </th>
+            <td>Do you understand me?</td>
+             <td>I/unu ghotara ihe m kwuru?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr>
+             <th>9</th>
+             <td>Who does not follow?</td>
+             <td>Kedu onye aghotaghi?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>
+           </tr>
+           
+           <tr>
+             <th>10</th>
+            <td>Take down these notes</td>
+             <td>Detue nu ihe ndia</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>
+           </tr>
+		   
+           <tr>
+             <th>11</th>
+             <td>Do not make noise</td>
+             <td>Unu emela mpotu</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>
+           </tr>
+		  
+           <tr>
+             <th>12</th>
+            <td>Who knows the answer?</td>
+             <td>Onye maara asisa ya?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>          
+           </tr>
+		  
+           <tr>
+             <th>13</th>
+            <td>Who is absent?</td>
+             <td>Kedu onye anoghi ya?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_13.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>           
+           </tr>
+		   
+           <tr>
+             <th>14</th>
+           <td>Stand up</td>
+             <td>Kwuru nu oto</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>             
+           </tr>
+		   
+           <tr>
+             <th>15</th>
+           <td>Sit down</td>
+             <td>Noro nu odu</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>        
+           </tr>
+		  
+           <tr>
+             <th>16</th>
+ 			<td>Which one is good?	</td>
+             <td>Wanne ne ke da kyau?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_16.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>            
+           </tr>
+		  
+           <tr>
+             <th>17</th>
+            <td>Why are you not writing?</td>
+             <td>Gini mere na I naghi ede ihe?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_17.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>           
+           </tr>
+		   
+           <tr>
+             <th>18</th>
+         <td>There should be no talking </td>
+             <td>Onye ekwula okwu</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_18.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>        
+           </tr>
+		  
+		   <tr >
+             <th>19</th>
+            <td>Answer your names</td>
+             <td>Zaa nu aha unu </td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_19.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>        
+           </tr>
+		   
+		   <tr >
+             <th>20</th>
+            <td>Who did not come today? </td>
+             <td>Kedu onye abiaghi taa ta? </td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_20.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>      
+           </tr>
+		   
+		   <tr >
+             <th>21</th>
+   			 <td>Why did you come late?</td>
+             <td>Gini mere I jiri ghara ibia n''oge?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_21.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>          
+           </tr>
+           
+		   <tr >
+             <th>22 </th>
+             <td>Is it time?</td>
+             <td>Oge ozuwo?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_22.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+		   
+		   <tr >
+             <th>23</th>
+          <td>You did not get it. You failed it </td>
+           <td>I nwetaghi ya, I daraya</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_23.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>          
+           </tr>
+		  
+		   <tr >
+             <th>24</th>
+          <td>That is correct	</td>
+             <td>I nwere y a, I nwetara aziza ya</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r4_24.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>      
+           </tr>
+		   
+		   <tr >
+             <th>25</th>
+       			<td>Don't look into your neighbor's paper</td>
+             <td>Elela anya n'akwukwo onye ozo?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>     
+           </tr>
+	
+		</tbody>
+       </table>
+    </div>      
+		
+          
+		   <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Hospital Situations</b></h3>     
+			<table data-role="table" id="table-column-toggle5" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+		   
+		   <tr >
+             <th>1</th>
+             <td>Please where do people get card?</td>
+             <td>Biko olee ebe ndi madu? na -agbara kadi</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>     
+           </tr>
+		   
+		   <tr >
+             <th>2</th>
+       		<td>Please I need a card</td>
+             <td>Biko achoro m kadi</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>          
+           </tr>
+		   
+		   <tr >
+             <th>3</th>
+             <td>Do I pay for the card?</td>
+             <td>Agam akwu ugwo kadi?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>           
+           </tr>
+		   
+		   <tr >
+             <th>4</th>
+            <td>When does the doctor come?</td>
+             <td>Olee mgbe do?kita (dibia) jiabia?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>           
+           </tr>
+		  
+		   <tr >
+             <th>5</th>
+             <td>Which doctor works here? </td>
+             <td>Kedu dokita nkenaaluebea?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>           
+           </tr>
+		   
+		   <tr >
+             <th>6</th>
+             <td>Where is the doctor�s consulting room?</td>
+             <td>Kedu ebe ana no ahu dokita?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>          
+           </tr>
+		   
+		   <tr >
+             <th>7</th>
+             <td>Good morning doctor, I am Mr. Chukwuma</td>
+             <td>Dokita, I putawo ura, Abum Mazi Chukwuma</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>            
+           </tr>
+		   
+		   <tr >
+             <th>8</th>
+            <td> You are working hard doctor</td>
+             <td>I di ike olu, dokita</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>           
+           </tr>
+		  
+		   <tr >
+             <th>9</th>
+            <td>I am suffering from head-ache</td>
+             <td>Isina-awam</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>           
+           </tr>
+		  
+		   <tr >
+             <th>10</th>
+            <td>I have belly-ache</td>
+             <td>Afo na -alum</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r6_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+		  
+            <tr >
+             <th>11</th>
+            <td>Please where do people get card?</td>
+             <td> Biko olee ebe ndi madu na -agbara kadi</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+             <tr >
+             <th>12</th>
+            <td>Please I need a card</td>
+             <td>Biko achoro m kadi</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+             <tr >
+             <th>13</th>
+            <td>Do I pay for the card?</td>
+             <td>Agam akwu ugwo kadi?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+             <tr >
+             <th>14</th>
+            <td>When does the doctor come?</td>
+             <td>Olee mgbe dokita (dibia) jiabia?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+             <tr >
+             <th>15</th>
+            <td> Which doctor works here?</td>
+             <td>Kedu dokita nkenaaluebea?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+             <tr >
+             <th>16</th>
+            <td>where is the doctor''s consulting room? </td>
+             <td>Kedu ebe ana no ahu dokita?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>17</th>
+            <td>Good morning doctor, I am Mr. Chukwuma</td>
+             <td>Dokita, I putawo ura, Abum Mazi Chukwuma</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>18</th>
+            <td>You are working hard doctor</td>
+             <td>I di ike olu, dokita</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>19</th>
+            <td>I am suffering from head-ache</td>
+             <td>Isina-awam</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>20</th>
+            <td>I have belly-ache</td>
+             <td>Afo na -alum</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r6_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>21</th>
+            <td>My eyes pain me</td>
+             <td>Anya-egbum mgbu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>22</th>
+            <td>I have constipation</td>
+             <td>Nsiy ana-aria mahuonyunyu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>23</th>
+            <td>My legs are paining me</td>
+             <td>Ukwuna egbum mgbu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r6_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>24</th>
+            <td>I have diarrhea</td>
+             <td>Afona -asam</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r6_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>25</th>
+            <td>My ears are paining me</td>
+             <td>Ntina egbum mgbu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r6_6.mp3');"  aria-disabled="false"  value="PLAY" />  
+              </td>         
+           </tr>
+           
+             <tr >
+             <th>26</th>
+            <td>Bottle piece pierced my leg</td>
+             <td>Ikpekere ekpem mapuru m ukwu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+           <tr >
+             <th>27</th>
+            <td>I have malaria</td>
+             <td>Ibana-ariam</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r6_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+           <tr >
+             <th>28</th>
+            <td>I feel dizzy some times</td>
+             <td>Ajuna-ebumogeufodu</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/request/r6_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+           
+            <tr >
+             <th>29</th>
+            <td>Worms worry me</td>
+             <td>Okpo na enye m nsogbu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+               <tr >
+             <th>30</th>
+            <td>Thank you doctor</td>
+             <td>Dokita, dalu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>31</th>
+            <td>Where do I pay for drugs?</td>
+             <td>Kedu ebe m ga - akwu ugwo ogwu?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>32</th>
+            <td>Where do I collect drugs? </td>
+             <td>Kedu ebe mga-anara ogwu?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>33</th>
+            <td>Where do I pay for drugs?</td>
+             <td>Kedu ebe m ga - akwu ugwo ogwu?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>34</th>
+            <td>Where do I collect drugs?</td>
+             <td>Kedu ebe mga-anara ogwu?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+             <tr >
+             <th>35</th>
+            <td>Goodbye</td>
+             <td>Keemesia</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	     
+	     </tbody>
+       </table>
+    </div>   
+	     
+	     
+	     
+	     
+	     <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Cardinals Numerals</b></h3>     
+			<table data-role="table" id="table-column-toggle1" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2">S/N</th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+           
+           <tr >
+             <th>1</th>
+            <td>One</td>
+             <td>Otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+           <tr >
+             <th>2</th>
+            <td>Two</td>
+             <td>Abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>3 </th>
+            <td>Three</td>
+             <td>Ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>4 </th>
+            <td>Four</td>
+             <td>Ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>5</th>
+            <td>Five</td>
+             <td>Ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>6</th>
+            <td>Six</td>
+             <td>Isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>7</th>
+            <td>Seven</td>
+             <td>Asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>8</th>
+            <td>Eight</td>
+             <td>Asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>9</th>
+            <td>Nine</td>
+             <td>Itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>10 </th>
+            <td>Ten</td>
+             <td>Iri</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>11</th>
+            <td>Eleven</td>
+             <td>Iri na otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>12</th>
+            <td>Twelve</td>
+             <td>Iri na abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>13 </th>
+            <td>Thirteen</td>
+             <td>Iri na ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>14 </th>
+            <td>Fourteen</td>
+             <td>Iri na ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>15 </th>
+            <td>Fifteen</td>
+             <td>Iri na ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>16 </th>
+            <td>Sixteen</td>
+             <td>Iri na isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>17</th>
+            <td>Seventeen</td>
+             <td>Iri na asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>18</th>
+            <td>Eighteen</td>
+             <td>iri na ilolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>19 </th>
+            <td>Nineteen</td>
+             <td>iri na ilolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>20</th>
+            <td>Twenty</td>
+             <td>iri abua (Ogu)</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	
+	    <tr >
+             <th>21</th>
+            <td>21</td>
+             <td>Iri abua na otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>22 </th>
+            <td>22</td>
+             <td>ri abua na abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>23 </th>
+            <td>23</td>
+             <td>Iri abua na ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>24</th>
+            <td>24</td>
+             <td>Iri abua na ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>25 </th>
+            <td>25</td>
+             <td>Iri abua na ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>26 </th>
+            <td>26</td>
+             <td>Iri abua na isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>27 </th>
+            <td>27</td>
+             <td>Iri abua na asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>28</th>
+            <td>28</td>
+             <td>Iri abua na asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>29 </th>
+            <td>29</td>
+             <td>Iri abua na  itoolu.</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>30 </th>
+            <td>30</td>
+             <td>Iri ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>31</th>
+            <td>31</td>
+             <td>Iri ato na otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>32 </th>
+            <td>32</td>
+             <td>Iri ato na abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>33 </th>
+            <td>33</td>
+             <td>Iri ato na ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>34 </th>
+            <td>34</td>
+             <td>Iri ato na ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>35 </th>
+            <td>35</td>
+             <td>Iri ato na ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>36 </th>
+            <td>36</td>
+             <td>Iri ato na isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>37 </th>
+            <td>37</td>
+             <td>Iri ato na asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>38</th>
+            <td>38</td>
+             <td>Iri ato na asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>39 </th>
+            <td>39</td>
+             <td>Iri ato na itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>40 </th>
+            <td>40</td>
+             <td>Iri ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>41 </th>
+            <td>50</td>
+             <td>Iri ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>42 </th>
+            <td>60</td>
+             <td>Iri isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>43 </th>
+            <td>70</td>
+             <td>Iri asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>44 </th>
+            <td>80</td>
+             <td>Iri asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>45 </th>
+            <td>90</td>
+             <td>Iri itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>46 </th>
+            <td>100</td>
+             <td>Nari</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>47 </th>
+            <td>200</td>
+             <td>Nari abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>48</th>
+            <td>300</td>
+             <td>Nari ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>49 </th>
+            <td>400</td>
+             <td>Nari ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>50 </th>
+            <td>500</td>
+             <td>Nari ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>51 </th>
+            <td>600</td>
+             <td>Nari isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>52 </th>
+            <td>700</td>
+             <td>Nari asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>53 </th>
+            <td>800</td>
+             <td>Nari asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>54 </th>
+            <td>900</td>
+             <td>Nari itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>55 </th>
+            <td>1000</td>
+             <td>Puku</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>56</th>
+            <td>2,000</td>
+             <td>Puku abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>57 </th>
+            <td>3,000</td>
+             <td>Puku ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>58 </th>
+            <td>4000</td>
+             <td>Puku ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>59 </th>
+            <td>5000</td>
+             <td>Puku ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>60</th>
+            <td>6000</td>
+             <td>Puku isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>61</th>
+            <td>7000</td>
+             <td>Puku asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>62 </th>
+            <td>8000</td>
+             <td>Puku asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>63 </th>
+            <td>9000</td>
+             <td>Puku itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>64 </th>
+            <td>10000</td>
+             <td>Puku iri</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>65 </th>
+            <td>One million</td>
+             <td>Nde</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>66 </th>
+            <td>Two million</td>
+             <td>Nde abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>67 </th>
+            <td>One billion</td>
+             <td>Njeri</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>68</th>
+            <td>Two billion cups</td>
+             <td>Njeri abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+	    
+	    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Counting Things</b></h3>     
+			<table data-role="table" id="table-column-toggle1" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19"> S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    <tr >
+             <th>1 </th>
+            <td>One yam</td>
+             <td>Otu ji</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+        </tr>
+	    
+	    <tr>
+             <th>2 </th>
+            <td>Two books</td>
+             <td>Akwukwo Abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+        </tr>
+           
+            <tr >
+             <th>3 </th>
+            <td>Three kobo </td>
+             <td>Mada Ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>4 </th>
+            <td>Four tables</td>
+             <td>Tablu ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>5 </th>
+            <td>Five chairs </td>
+             <td>Oche ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>6 </th>
+            <td>Six boys</td>
+             <td>Umu-nwoke isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>7 </th>
+            <td>Seven sticks </td>
+             <td>Okporo-osisi asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+             <tr >
+             <th>8 </th>
+            <td>Eight pots </td>
+             <td>Ite asato	</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+           <tr >
+             <th>9 </th>
+            <td>Nine houses</td>
+             <td>Ulo itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+           <tr >
+             <th>10 </th>
+            <td>Ten fowls</td>
+             <td>Okuko iri	</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+           
+            <tr >
+             <th>11 </th>
+            <td>Eleven Oranges </td>
+             <td>Oroma iri na otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>12 </th>
+            <td>Twelve pots </td>
+             <td>Ite iri na abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>13 </th>
+            <td>Thirteen motors </td>
+             <td>Moto iri na ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>14 </th>
+            <td>Fourteen trees</td>
+             <td>Osisi iri na ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>15 </th>
+            <td>Fifteen trees</td>
+             <td>Osisi iri na ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>16 </th>
+            <td>Sixteen trees </td>
+             <td>Osisi iri na isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>17 </th>
+            <td>Seventeen trees</td>
+             <td>Osisi iri na asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>18 </th>
+            <td>Eighteen doors </td>
+             <td>Uzo iri na asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>19 </th>
+            <td>Nineteen doors</td>
+             <td>Uzo iri na itolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>20 </th>
+            <td>Twenty doors</td>
+             <td>Uzo iri abua (Ogu uzo)</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>21 </th>
+            <td>21 spoons</td>
+             <td>Ngaji iri abua na otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>22 </th>
+            <td>22 spoons</td>
+             <td>Ngaji iri abua na abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>23 </th>
+            <td>23 spoons</td>
+             <td>Ngaji iri abua na ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>24 </th>
+            <td>24 spoons</td>
+             <td>Ngaji iri abua na ano </td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>25 </th>
+            <td>25 spoons</td>
+             <td>Ngaji iri abua na ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>26 </th>
+            <td>26 shirts</td>
+             <td>Afe iri abua na isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>27 </th>
+            <td>27 shirts </td>
+             <td>Afe iri abua na asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>28 </th>
+            <td>28 shirts</td>
+             <td>Afe iri abua na asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>29 </th>
+            <td>29 shirts</td>
+             <td>Afe iri abua na itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>30 </th>
+            <td>30 shirts</td>
+             <td>Afe iri ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>31 </th>
+            <td>31 hands</td>
+             <td>Aka iri ato na otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>32 </th>
+            <td>32 hands</td>
+             <td>Aka iri ato na abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>33 </th>
+            <td>33 hands</td>
+             <td>Aka iri ato na ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>34 </th>
+            <td>34 hands</td>
+             <td>Aka iri ato na ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>35 </th>
+            <td>35 hands</td>
+             <td>Aka iri ato na ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>36 </th>
+            <td>36 heads</td>
+             <td>Isi iri ato na isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>37 </th>
+            <td>37 heads</td>
+             <td>Isi iri ato na asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>38 </th>
+            <td>38 heads</td>
+             <td>Isi iri ato na asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>39 </th>
+            <td>39 heads</td>
+             <td>Isi iri ato na itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>40 </th>
+            <td>40 heads</td>
+             <td>Naira iri ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>41 </th>
+            <td>50 knives </td>
+             <td>Iri mma ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>42 </th>
+            <td>60 knives</td>
+             <td>Iri mma isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>43 </th>
+            <td>70 knives</td>
+             <td>Iri mma asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>44 </th>
+            <td>80 knives</td>
+             <td>Iri mma asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>45 </th>
+            <td>90 knives</td>
+             <td>Iri mma itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>46 </th>
+            <td>100 knives</td>
+             <td>Nari mma</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>47 </th>
+            <td>200 guns</td>
+             <td>Nari egbe abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>48 </th>
+            <td>300 guns</td>
+             <td>Nari egbe ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>49 </th>
+            <td>400 guns</td>
+             <td>Nari egbe ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>50 </th>
+            <td>500 guns</td>
+             <td>Nari egbe ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>51 </th>
+            <td>600 guns</td>
+             <td>Nari egbe isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>52 </th>
+            <td>700 guns</td>
+             <td>Nari egbe asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr> 
+	    
+	    <tr >
+             <th>53 </th>
+            <td>800 guns</td>
+             <td>Nari nnunu asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>54 </th>
+            <td>900 guns</td>
+             <td>Nari nnunu itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>55 </th>
+            <td>1,000 birds</td>
+             <td>Puku nnunu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>56 </th>
+            <td>2,000 birds</td>
+             <td>Puku nnunu abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>57 </th>
+            <td>3,000 birds</td>
+             <td>Puku nnnuato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>58 </th>
+            <td>4,000 birds</td>
+             <td>Puku nnunuabua ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>59 </th>
+            <td>5,000 birds</td>
+             <td>Puku iko ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>60 </th>
+            <td>6,000 birds</td>
+             <td>Puku iko isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>61 </th>
+            <td>7,000 cups</td>
+             <td>Puku iko asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>62 </th>
+            <td>8,000 cups</td>
+             <td>Puku iko asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>63 </th>
+            <td>9,000 cups</td>
+             <td>Puku iko itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>64 </th>
+            <td>10,000 cups</td>
+             <td>Puku iko iri</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>65 </th>
+            <td>1,000,000 cups</td>
+             <td>Nde iko</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>66 </th>
+            <td>Two million cups</td>
+             <td>Nde iko abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>67 </th>
+            <td>One billion cups</td>
+             <td>Njeri iko</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>68 </th>
+            <td>Two billion cups</td>
+             <td>Njeri iko abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+        </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+	  
+	    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Reading Time in Hours</b></h3>     
+			<table data-role="table" id="table-column-toggle1" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19"> S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    <tr >
+             <th>1 </th>
+            <td>One O'clock</td>
+             <td>Otu elekere</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+         </tr>
+	    
+	    <tr >
+             <th>2 </th>
+            <td>Two O''clock</td>
+             <td>Elekere abua</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>3 </th>
+            <td>Three O''clock</td>
+             <td>Elekere ato</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+        </tr>
+	    
+	    <tr >
+             <th>4 </th>
+            <td>Four O''clock</td>
+             <td>Elekere ano</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+         </tr>
+	    
+	    <tr >
+             <th>5 </th>
+            <td>Five O''clock</td>
+             <td>Elekere ise</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+        </tr>
+	    
+	    <tr >
+             <th>6 </th>
+            <td>Six O''clock</td>
+             <td>Elekere isii</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>7 </th>
+            <td>Seven O''clock</td>
+             <td>Elekere asaa</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>8 </th>
+            <td>Eight O''clock</td>
+             <td>Elekere asato</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+         </tr>
+	    
+	    <tr >
+             <th>9 </th>
+            <td>Nine O''clock</td>
+             <td>Elekere itoolu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+        </tr>
+	    
+	    <tr >
+             <th>10 </th>
+            <td>Ten O''clock</td>
+             <td>Elekere iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>11 </th>
+            <td>Eleven O''clock</td>
+             <td>Elekere iri na out</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>12 </th>
+            <td>Twelve O''clock</td>
+             <td>Elekere iri na abua</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>13 </th>
+            <td>Ante meridian (a.m); 10a.m</td>
+             <td>Elekere iri nke ututu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_13.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>14 </th>
+            <td>Noon (mid-day) 12.00 noon</td>
+             <td>Elekere iri na abua nke etiti ehihie</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>15 </th>
+            <td>Post meridian (p.m.), 6.00 p.m</td>
+             <td>Elekesre isii nke ngbede</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>16 </th>
+            <td>Midnight (m.n.), 12.00 midnight</td>
+             <td>Elekere iri na abua nke etiti abali</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c1_16.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>17 </th>
+            <td>O''clock</td>
+             <td>Elekere</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>18 </th>
+            <td>Minute; three minutes</td>
+             <td>Nkeji, Nkeji ato</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Reading Time in Minutes</b></h3>     
+			<table data-role="table" id="table-column-toggle7" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    <tr >
+             <th>1 </th>
+            <td>One minute past ten O''clock</td>
+             <td>Otu nkeji agafeela elekere iri</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>2 </th>
+            <td>Two minutes past ten</td>
+             <td>Nkeji abuo agafeela elekere iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>3 </th>
+            <td>Three minutes past ten</td>
+             <td>Nkeji ato agafeela elekere iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>4 </th>
+            <td>Four minutes past ten</td>
+             <td>Nkeji ano agafeela elekere ir</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>5 </th>
+            <td>Four minutes past ten</td>
+             <td>Nkeji ano agafeela elekere iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>6 </th>
+            <td>Five minutes past ten</td>
+             <td>Nkeji ise agafeela elekere iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>7 </th>
+            <td>Six minutes past ten</td>
+             <td>Nkeji isii agafeela elekere iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>8 </th>
+            <td>Seven minutes past ten</td>
+             <td>Ojirila nkeji asaa gafe elekeri ise (another way)</td>
+              <td><span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_10.mp3');"  aria-disabled="false"  value="PLAY" /> </td>         
+           </tr>
+	    
+	    <tr >
+             <th>9 </th>
+            <td>Eight minutes past ten</td>
+             <td>Ojirila nkeji asato gafe elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>10 </th>
+            <td>Nine minutes past ten</td>
+             <td>Ojirila nkeji itoolu gafe elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>11 </th>
+            <td>Ten minutes past ten</td>
+             <td>Ojirila nkeji iri gafe elekeri iri</td>
+              <td><span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_13.mp3');"  aria-disabled="false"  value="PLAY" /> </td>         
+           </tr>
+	    
+	    <tr >
+             <th>12 </th>
+            <td>Eleven minutes past ten</td>
+             <td>Ojirila nkeji iri na otu gafe elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>13 </th>
+            <td>Twelve minutes past ten</td>
+             <td>Nkeji iri na abua agafeela elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>14 </th>
+            <td>Thirteen minutes past ten</td>
+             <td>Nkeji iri na ato agafeela elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_16.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>15 </th>
+            <td>Fourteen minutes past ten</td>
+             <td>Nkeji iri na ano agafeela elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_17.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>16 </th>
+            <td>Fifteen minutes past ten</td>
+             <td>Nkeji iri na ise agafeela elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_18.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>17 </th>
+            <td>Sixteen minutes past ten</td>
+             <td>Nkeji iri na isii agafeela elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_19.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>18 </th>
+            <td>70 knives</td>
+             <td>Iri mma asaa</td>
+              <td><span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c2_20.mp3');"  aria-disabled="false"  value="PLAY" /> </td>         
+           </tr>
+	    
+	    <tr >
+             <th>19 </th>
+            <td>Seventeen minutes past ten</td>
+             <td>Nkeji iri na asaa agafeela elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>20 </th>
+            <td>Eighteen minutes past ten</td>
+             <td>Nkeji iri na asato agafeela elekeri iri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>21 </th>
+            <td>Nineteen minutes past ten</td>
+             <td>Nkeji iri na itoolu agafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>22 </th>
+            <td>Twenty minutes past ten</td>
+             <td>Nkeji iri abua agafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>23 </th>
+            <td>Twenty-one minutes past ten</td>
+             <td>Nkeji iri abua na otu  agafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>24 </th>
+            <td>Twenty-two minutes past ten</td>
+             <td>Nkeji iri abua na abua agafeela elekeri ir</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>25 </th>
+            <td>Twenty-three minutes past ten</td>
+             <td>Nkeji iri abua na ato agafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>26 </th>
+            <td>Twenty-four minutes past ten</td>
+             <td>Nkeji iri abua na ano agafeela elekeri ir</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>27 </th>
+            <td>Twenty-five minutes past ten</td>
+             <td>Nkeji iri abua  na ise agafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>28 </th>
+            <td>Twenty-six minutes past ten</td>
+             <td>Nkeji iri abua na isii agafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>29 </th>
+            <td>Twenty-seven minutes past ten</td>
+             <td>Nkeji iri abua na asaa agafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>30 </th>
+            <td>Twenty-eight minutes past ten</td>
+             <td>Nkeji iri abua na aasato gafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_13.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>31 </th>
+            <td>Twenty-eight minutes past ten</td>
+             <td>Nkeji iri abua na aasato gafeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>32 </th>
+            <td>Twenty-nine minutes past ten</td>
+             <td>Nkeji iri abua na itolu agefeela elekeri iri</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>33 </th>
+            <td>Thirty minutes past ten (ten thirty)</td>
+             <td>Nkeji iri ato agafeela elekeri iri  (Elekeri iri na okara)</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_16.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>34 </th>
+            <td>Twenty-eight minutes to eleven o''clock</td>
+             <td>Elekeri iri na otu foduru nkeji iri abua na itolu</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_17.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>35 </th>
+            <td>Twenty-seven minutes to eleven o''clock</td>
+             <td>Elekeri iri na otu foduru nkeji iri abua na asaa</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_18.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>36 </th>
+            <td>Twenty-six minutes to eleven o''clock</td>
+             <td>Elekeri iri na otu foduru nkeji iri abua na is ii</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_19.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>37 </th>
+            <td>Twenty-five minutes to eleven o''clock</td>
+             <td>Elekeri iri na otu foduru nkeji iri abua na ise</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_20.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>38 </th>
+            <td>Twenty-four minutes to eleven o''clock</td>
+             <td>Elekeri iri na otu foduru nkeji iri abua na ano</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_21.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>39 </th>
+            <td>Twenty-three minutes to eleven o''clock</td>
+             <td>Elekeri iri na otu foduru nkeji iri abua na ato</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_22.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>40 </th>
+            <td>Twenty-two minutes to eleven o''clock</td>
+             <td>Elekeri iri na otu foduru nkeji iri abua na abua</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_23.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>41 </th>
+            <td>Twenty-one minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foduru nkeji iri abua na out</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_24.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>42 </th>
+            <td>Twenty minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foro nkeji iri abua</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>43 </th>
+            <td>Nineteen minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foro nkeji iri na itoolu</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>44 </th>
+            <td>Eighteen minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foro nkeji iri na asato</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>45 </th>
+            <td>Seventeen minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri na asaa</td>
+              <td>
+                 <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c3_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>46 </th>
+            <td>Sixteen minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri na isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>47 </th>
+            <td>Sixteen minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri na isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>48 </th>
+            <td>Fifteen minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri na ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>49 </th>
+            <td>Fourteen minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri na ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>50 </th>
+            <td>Thirteen minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri na ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>51 </th>
+            <td>Twelve minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri na abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    <tr >
+             <th>52 </th>
+            <td>Eleven minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri na otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>53 </th>
+            <td>Ten minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji iri</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>54 </th>
+            <td>Nine minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji itoolu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>55 </th>
+            <td>Eight minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji asato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>56 </th>
+            <td>Seven minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji asaa</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>57 </th>
+            <td>Six minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji isii</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>58 </th>
+            <td>Five minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji ise</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>59 </th>
+            <td>Four minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji ano</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>60 </th>
+            <td>Three minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji ato</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>61 </th>
+            <td>Two minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu foronkeji abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>62 </th>
+            <td>One minutes to eleven o�clock</td>
+             <td>Elekeri iri na otu forootu nkeji</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>63 </th>
+            <td>Eleven o�clock</td>
+             <td>Elekeri iri na otu akua kponkwem</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>64 </th>
+            <td>Please what is the time?</td>
+             <td>Biko gini na aku?</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>65 </th>
+            <td>It is eleven o�clock</td>
+             <td>O bu elekere iri na otu</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>66 </th>
+            <td>Ten minutes after twelve</td>
+             <td>Nkeji iri agafeela elekere iri na abua</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+	    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Day of the Week</b></h3>     
+			<table data-role="table" id="table-column-toggle1" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2">S/N</th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    
+	    <tr >
+             <th>1 </th>
+            <td>Sunday</td>
+             <td>Mbosi Uka</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>2 </th>
+            <td>Monday</td>
+             <td>Mbosi Mondee</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>3 </th>
+            <td>Tuesday</td>
+             <td>Mbosi Tuuzdee</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>4 </th>
+            <td>Wednesday</td>
+             <td>Mbosi Nwenezdee</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>5 </th>
+            <td>Thursday</td>
+             <td>Mbosi Toozdee</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>6 </th>
+            <td>Friday</td>
+             <td>Mbosi Fraidee</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>7 </th>
+            <td>Saturday</td>
+             <td>Mbosi Satodee</td>
+              <td><button><b style="color:#156E19">PLAY</b></button></td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+	    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Months of the Year</b></h3>     
+			<table data-role="table" id="table-column-toggle17" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2">S/N</th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    
+	    <tr >
+             <th>1 </th>
+            <td>January</td>
+             <td>January</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>2 </th>
+            <td>February</td>
+             <td>Februari</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>3 </th>
+            <td>March</td>
+             <td>Maachi</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>4 </th>
+            <td>April</td>
+             <td>Epreeli</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>5 </th>
+            <td>May</td>
+             <td>Mee</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>6 </th>
+            <td>June</td>
+             <td>Juun</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>7 </th>
+            <td>July</td>
+             <td>Julayi</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>8 </th>
+            <td>August</td>
+             <td>Ogostu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>9 </th>
+            <td>September</td>
+             <td>Septemba</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>10 </th>
+            <td>October</td>
+             <td>Oktoba</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>11 </th>
+            <td>November</td>
+             <td>Novemba</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>12 </th>
+            <td>December</td>
+             <td>Disemba</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/time/c5_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+    
+	    
+	  <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+      <h3><b style="color:#156E19">Market Transactions</b></h3>     
+			<table data-role="table" id="table-column-toggle18" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    
+	    <tr >
+             <th>1 </th>
+            <td>Yam</td>
+             <td>Ji</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>2 </th>
+            <td>Rice</td>
+             <td>Osikapa</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>3 </th>
+            <td>Beans</td>
+             <td>Agwa</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>4 </th>
+            <td>Plantain</td>
+             <td>Ojoko</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>5 </th>
+            <td>Banana</td>
+             <td>Unere-akwu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>6 </th>
+            <td>Meat; goat meat</td>
+             <td>Anu; Anu-ewu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>7 </th>
+            <td>Fish</td>
+             <td>Azu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>8 </th>
+            <td>Vegetable</td>
+             <td>Akwukwo-nri</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>9 </th>
+            <td>Pepper</td>
+             <td>Ose</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>10 </th>
+            <td>Palm oil</td>
+             <td>Mmanu-akwu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>11 </th>
+            <td>Groundnut oil</td>
+             <td>Mmanu-opapa</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>12 </th>
+            <td>Salt</td>
+             <td>Nnu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>13 </th>
+            <td>Maize</td>
+             <td>Oka</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_13.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>14 </th>
+            <td>Cassava Flour</td>
+             <td>Akpu-osusu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>15 </th>
+            <td>Fresh fish</td>
+             <td>Azu-ndu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>16 </th>
+            <td>Yam Flour</td>
+             <td>Alibo</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_16.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>17 </th>
+            <td>Egg</td>
+             <td>Akwa</td>
+              <td>
+     <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m1_17.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>18 </th>
+            <td>Tomato</td>
+             <td>Tomato</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>19 </th>
+            <td>Orange</td>
+             <td>Oroma</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>20 </th>
+            <td>Wine, Beer</td>
+             <td>Mmanya, bia</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>21 </th>
+            <td>Coconut</td>
+             <td>Akuoyibo</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>22 </th>
+            <td>Groundnut</td>
+             <td>Opapa, Asiboko</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    
+	    <tr >
+             <th>23 </th>
+            <td>Bread</td>
+             <td>Breedi</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>24 </th>
+            <td>Stockfish</td>
+             <td>OkpOroko, Azu-nku</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>25 </th>
+            <td>Bread-fruit</td>
+             <td>Ukwa</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>26 </th>
+            <td>Cocoyam</td>
+             <td>Ede</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>27 </th>
+            <td>Soup</td>
+             <td>Ofe</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>28 </th>
+            <td>Melon</td>
+             <td>Egunsi</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>29 </th>
+            <td>Ogbono</td>
+             <td>Ogbono</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>30 </th>
+            <td>Bitter leaf</td>
+             <td>Onugbu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_13.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>31 </th>
+            <td>Onions</td>
+             <td>Yabasi</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>32 </th>
+            <td>Pumpkin</td>
+             <td>Anyu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>33 </th>
+            <td>Pap</td>
+             <td>Akamu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m2_16.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>34 </th>
+            <td>Good afternoon</td>
+             <td>Ndewo o.</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+	    
+	    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Market Communication</b></h3>     
+			<table data-role="table" id="table-column-toggle21" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    <tr >
+             <th>1 </th>
+            <td>Good afternoon, welcome</td>
+             <td>Ndewoo, Nnoo.</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>2 </th>
+            <td>Well done for market</td>
+             <td>Deme, I na ere?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>3 </th>
+            <td>Thank you.</td>
+             <td>Ee Dalu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>4 </th>
+            <td>Is your merchandise  selling well? </td>
+             <td>Ahia o na-agbakwaara gi oku?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>5 </th>
+            <td>Yes, what do you wish to  buy?</td>
+             <td>Ee kedu ihe I choro  izu?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>6 </th>
+            <td>I want to buy yam. Do  you have yam?</td>
+             <td>Achorom  izutorough ji I  nwere ji?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>7 </th>
+            <td>There is. It is good yam</td>
+             <td>Odi, obuezigbo  oyoyo ji.</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>8 </th>
+            <td>How much is it?</td>
+             <td>Obuego ole?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>9 </th>
+            <td>It is very cheap. Three  naira</td>
+             <td>Odi onuala. Naira  ato</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>10 </th>
+            <td>Ah, it is too costly</td>
+             <td>Hei ogaraka onu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>11 </th>
+            <td>It is not at all costly</td>
+             <td>Mbao, Egalaghi  onuchaacha</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>12 </th>
+            <td>What of two naira</td>
+             <td>Kedu maka naira  abua?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_13.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>13 </th>
+            <td>I don''t agree, it is not good</td>
+             <td>Ekweghi m Odighi  mma</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>14 </th>
+            <td>My money is not up  to three naira. I am  going</td>
+             <td>Ego m erughi naira  atoapuwala m.</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>15 </th>
+            <td>No, customer, my good  ''husband'' come and  buy from me.</td>
+             <td>Mba onye-ahia m,  ezigbo �di bia zuru n�aka m.</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m3_16.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>16 </th>
+            <td>What is your last  price?</td>
+             <td>Kedu ereghi-ere  ya? Gini bu ezigbo  onuya?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>17 </th>
+            <td>Okay, pay two naira and  eighty kobo</td>
+             <td>Odim ma, wetawa  naira abua na kobo  iri asato</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>18 </th>
+            <td>I will pay two naira  twenty kobo</td>
+             <td>Aga m akwunaira  abua na kobo iri  abua</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>19 </th>
+            <td>Ah customer that does  not reach the cost of the  yam. Pay two naira sixty kobo</td>
+             <td>Ha, onye ahia m,  nke ahuerughi isi  ahia ji ahu, Kwua  naira abua na kobo  iri isii</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>20 </th>
+            <td>You know you called  me back, I want to  buy the yam from  you. take just two  naira fifty kobo</td>
+             <td>I maara obu gi  kpogha chiri m azu Achoro m izugi  ahu. Were naira  abua na kobo iri ise</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>21 </th>
+            <td>Yes, I want to sell the  yam to you. Okay bring  money</td>
+             <td>Ee, Amaara m.  achokwaranum iresi  gi ji ahu. Ngwa weta  ego.</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>22 </th>
+            <td>Do you have change?</td>
+             <td>For how much?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>23 </th>
+            <td>I nwere chanji?</td>
+             <td>Nke ego o le?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>24 </th>
+            <td>For five naira</td>
+             <td>Nke naira ise</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>25 </th>
+            <td>Ha! Ha! Ha! but you  said that your money is  not up to three naira.  Ha! my customer and  money. I have change.</td>
+             <td>Ha! Ha! Ha! Mana I  siri na ego gi erughi  naira ato. He onye  ahia m na ego. Enwe  m chenji</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_10.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>26 </th>
+            <td>Take the money. You  know money is very  hard to get but very  easy to spend. Any  way, it is part of the  market.</td>
+             <td>Ngwa were ego. I  maara na ego na  ahiaruikpata, ma o  nagbi a hiaruimefu Out o sinadi, ha  nile buahia ahu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_11.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>27 </th>
+            <td>Ha! Ha! It is true but  you know traders like  people who spend  easily. This is your  change</td>
+             <td>Ha! Ha! O bu  eziokwu. Ma I mara  na ndi ania na-ahu  ndi na emefu-ego  n�anya. Nee chengi  gi.</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_12.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>28 </th>
+            <td>Thank you very  much, bye-bye</td>
+             <td>Dalu, Kemesia</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_13.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>29 </th>
+            <td>Thank you for  patronizing me.  Whenever you come to  market, remember me. I  will help you in  anything you want to  buy</td>
+             <td>Deme maka ahia I  zuru m. Cheta m oge  obula I biara ahia.  Aga m enyere gi aka  zu ihe obula I choro  izu</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_14.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>30 </th>
+            <td>May God help you  sell plenty</td>
+             <td>Chukwu neyre gi  aka ka ahia gbaara  oku naa.</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_15.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>31 </th>
+            <td>Amen, Bye-bye</td>
+             <td>Ise, kemesie</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/market/m4_16.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	     </tbody>
+       </table>
+    </div>   
+    
+    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Seeking Permission to Travel</b></h3>     
+   <table data-role="table" id="table-column-toggle25" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    <tr >
+             <th>1 </th>
+            <td>Please sir, I need permission to travel</td>
+             <td>Biko Mazi, achorom ikike iga njem</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t1_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>2 </th>
+            <td>This is my application</td>
+             <td>Lee akwukwum ji achoikike</td>
+              <td>
+                  <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t1_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+	    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Informing the Neighbours</b></h3>     
+			<table data-role="table" id="table-column-toggle19" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    <tr >
+             <th>1 </th>
+            <td>Friend, I wish to travel today</td>
+             <td>Enyi m, achorom iga njem taata</td>
+              <td>
+                  <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_1.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>2 </th>
+            <td>I will be travelling to Jos</td>
+             <td>Ana m aga Jos</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_2.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>3 </th>
+            <td>I will return next week</td>
+             <td>Aga m alota izu uka ozo</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_3.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>4 </th>
+            <td>Please look after my house for me</td>
+             <td>Biko, ledoro m ulo m anya</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_4.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>5 </th>
+            <td>I am ready, take care of yourself</td>
+             <td>Ejikerela m ipu ugbua</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_5.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>6 </th>
+            <td>I am going. Bye-bye</td>
+             <td>Apuwala m. Kemesia</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_6.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>7 </th>
+            <td>Till I return, take care of yourself</td>
+             <td>Ka odi mgbe m loghachiri. Ledo onwe gi anya</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_7.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>8 </th>
+            <td>I want to inform you that I am back</td>
+             <td>Achorom ime ka I mara na m alotala</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_8.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>9 </th>
+            <td>This is what I bought for your child on the  way</td>
+             <td>Lee ihe m zotara nwa gi n''uzo</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t2_9.mp3');"  aria-disabled="false"  value="PLAY" /> 
+              </td>         
+           </tr>
+	    
+	    </tbody>
+       </table>
+    </div>   
+	    
+	    
+	    
+	    
+	    <div data-role="collapsible" data-theme="e"  style="margin-left:0px">
+        <h3><b style="color:#156E19">Finding your Way</b></h3>     
+			<table data-role="table" id="table-column-toggle27" data-mode="columntoggle" class="ui-responsive table-stroke" border="1" cellspacing="0" cellpadding="0">
+		 
+         <thead>
+           <tr class="ui-bar-e">           
+             <th data-priority="2"><b style="color:#156E19">S/N</b></th>
+             <th><b style="color:#156E19"> English </b> </th>
+             <th><b style="color:#156E19"> Igbo </b></th>
+             <th><b style="color:#156E19"> Voice </b></th>
+           </tr>
+         </thead>
+	    
+	    <tr >
+             <th>1 </th>
+            <td>Please where can I find motor going to Jos?</td>
+             <td>Biko olee ebe m ga enweta moto na-aga Jos?</td>
+              <td>
+               <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t3_1.mp3');"  aria-disabled="false"  value="PLAY" />
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>2 </th>
+            <td>Where is the way to the motor park?</td>
+             <td>Olee uzogawara odumoto?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t3_2.mp3');"  aria-disabled="false"  value="PLAY" />
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>3 </th>
+            <td>Can you take me to the motor park?</td>
+             <td>I ga-eduga nwu m n''odumoto?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t3_3.mp3');"  aria-disabled="false"  value="PLAY" />
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>4 </th>
+            <td>Taxi! Take me to the park. What is your fare?</td>
+             <td>Takizi, buga m n''odumoto. Ego ole ka m ga-akwu?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t3_4.mp3');"  aria-disabled="false"  value="PLAY" />
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>5 </th>
+            <td>Will I fid motor going to Jos at the park?</td>
+             <td>Aga m enwetanwu moto na aga Jos n''odu moto ahu?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t3_5.mp3');"  aria-disabled="false"  value="PLAY" />
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>6 </th>
+            <td>Please, I am missing my way, can you help  me?</td>
+             <td>Biko, m na-efu uzo. I ge nyenwuru m aka?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t3_6.mp3');"  aria-disabled="false"  value="PLAY" />
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>7 </th>
+            <td>Which way leads to Owerri?</td>
+             <td>Olee uzogawara Owerri?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t3_7.mp3');"  aria-disabled="false"  value="PLAY" />
+              </td>         
+           </tr>
+	    
+	    <tr >
+             <th>8 </th>
+            <td>Is it very far? Do I need to board a taxi?</td>
+             <td>O di anya? Aga m agbara ya moto?</td>
+              <td>
+              <span id="dummy"></span>
+     <input class="ui-btn-hidden" type="button" onclick="playSound('http://www.admin.nyscmobile.org/IgboVoice/travelling/t3_8.mp3');"  aria-disabled="false"  value="PLAY" />
+              </td>         
+           </tr>
+	
+		    </tbody>
+       </table>
+    </div>   
+      
+
+
+
+			
+                <!-- Security Tips Ends -->               
+                <!-- Footer Starts -->
+                <div class="footer">© NYSC 2016. All Rights Reserved.</div>
+                <!-- Footer Ends -->
+            </div>
+            <!-- /content -->
+          <!-- Left Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="left-panel" data-theme="b">
+                <!-- Social Icons Starts -->
+                <div class="l-social-icons">
+                    <ul>
+                     <li><a href="http://www.nysc.gov.ng" rel="external" target="_blank"><img src="images/icons/social-icons/logosmall.png" width="60" height="60"></a></li>  
+                        <li><a href="https://facebook.com/officialnysc" rel="external" target="_blank"><img src="images/icons/social-icons/fb.png" width="36" height="36"></a></li>
+                        <li><a href="https://twitter.com/nysc_ng" rel="external" target="_blank"><img src="images/icons/social-icons/twitter.png" width="36" height="36"></a></li>                                            
+                        <li><a href="https://instagram.com/nysc_ng" rel="external" target="_blank"><img src="images/icons/social-icons/insta.png" width="36" height="36"></a></li>
+                    </ul>
+                </div>
+                <!-- Social Icons Ends -->
+                <!-- Main Menu Starts --> 
+                <div id="accordion">
+                    <ul id="items">
+                        <li>
+                            <a href="home.html" rel="external" class="activated"><i class="fa fa-home fa-2x"></i>HOME</a>
+                        </li>
+     
+             <li><a href="dgs.html" rel="external"><i class="fa fa-thumbs-up fa-2x"></i>MEET OUR DGs</a></li>                        					
+             <li><a href="bye_laws.html" rel="external"><i class="fa fa-legal (alias) fa-2x"></i>BYE-LAWS</a></li>		
+			                  
+                        <li>
+                        <a href="#"><i class="fa fa-location-arrow fa-2x"></i>LOCATE NYSC</a>
+                            <ul class="sub-items">
+							 <li>
+               <a href="ndhq.html" rel="external"><b> NYSC HEADQUATRES </b> </a>
+                             </li> 
+							 <li>
+               <a href="states.html" rel="external"><b> STATE SECRETARIATS </b></a>
+                             </li>  
+                             <li>
+             <a href="camps.html" rel="external"><b> ORIENTATION CAMPS </b></a>
+                             </li>                                                             
+                            </ul>
+                        </li>
+  <li><a href="faqs.html" rel="external"><i class="fa fa-lightbulb-o fa-2x"></i>FAQS</a></li>                
+   <li>
+   <a href="security.html" rel="external"><i class="fa fa-road fa-2x"></i>SECURITY TIPS</a></li>       <li><a href="health.html" rel="external"><i class="fa fa-ambulance fa-2x"></i>HEALTH TIPS</a></li>	     
+                     <li><a href="act.html" rel="external"><i class="fa fa-book fa-2x"></i>NYSC DECREE</a></li>        
+                      <li>
+                            <a href="#"><i class="fa fa-info fa-2x"></i>ABOUT</a>
+                            <ul class="sub-items">
+                                <li>
+                       <a href="aboutnysc.html" rel="external"><b> ABOUT NYSC </b> </a>
+                                </li>
+                                <li>
+                  <a href="aboutapp.html" rel="external"><b> ABOUT APP </b></a>
+                                </li>                                
+                            </ul>
+                        </li>                        
+                        
+                    </ul>
+                </div>
+                <!-- Main Menu Ends -->
+                <!-- Main Menu Ends -->
+            </div>
+            <!-- Left Panel Ends
+                ================================================== -->
+            <!-- Right Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="right-panel" data-position="right" data-theme="c">
+                <!-- Phone Number -->
+                <div class="r-phone"><a href="tel:092912257"><i class="fa fa-phone-square fa-2x"></i> 09-2912257 </a></div>
+                <!-- Latest Tweets Starts -->
+                
+                <!-- Latest Tweets Ends -->
+                <!-- Contact Info Starts -->
+                <div class="r-contact-info">
+                    <i class="fa fa-envelope fa-2x"></i><span class="heading">CONTACT US</span><br><br>
+                    <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;<strong>NYSC Directorate Headquarters</strong><br>
+                    Plot 416, Tigris Crescent <br>
+                    Off Aguiyi Ironsi Street, Maitama. <br> 
+                    PMB 138, Garki ,Abuja.  <br><br>
+                    <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;<a href="sms:08097870000"><span class="normal">SMS Message</span></a> <br>
+                    <i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:092912257">09-2912257</a> <br>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:info@nysc.gov.ng?bcc=mobileapp@nysc.gov.ng&subject=Request via NYSC Mobile App" target="_blank">info@nysc.gov.ng</a>
+                </div>
+                <!-- Contact Info Ends -->
+                               
+            </div>
+            <!-- Right Panel Ends
+                ================================================== -->
+            <!-- ToTop Starts
+                ================================================== -->  
+            <a href="#" class="scrollup">Scroll</a>      
+            <!-- ToTop Ends
+                ================================================== --> 
+        </div>
+        <!-- Page Contents Ends
+            ================================================== -->
+        <!-- Javascript Files
+            ================================================== -->   
+        <script src="owl-carousel/owl-carousel/owl.carousel.js"></script> 
+        <!-- Custom JS File -->
+        <script src="js/custom.js"></script> 
+        <script src="menu/js/main.js"></script>    
+        <!-- Twitter -->
+        
+        <!-- Retina Display -->
+        <script src="js/Retina/retina.js"></script>
+    </body>
+</html>

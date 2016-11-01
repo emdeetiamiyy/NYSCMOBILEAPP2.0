@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NYSC Mobile Application</title>
+        <!-- All Stylesheets -->
+        <link rel="stylesheet"  href="css/All-Stylesheets.css">
+        <!-- Add 2 Home -->
+        <link rel="apple-touch-icon" href="images/add-to-home/touch-icon-iphone.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="images/add-to-home/touch-icon-ipad.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="images/add-to-home/touch-icon-iphone4.png" />
+        <link rel="icon" type="image/png" href="icon.png" />
+        <script type="text/javascript" src="js/add2home.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/json.js" charset="utf-8"></script>
+        <!-- Javascript File -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <!-- Donut Chart -->
+        <script type="text/javascript" src="js/jquery.donutchart.js"></script>
+        <!-- jQuery Mobile -->
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <!-- Glyphicons -->
+        <script type="text/javascript" async src="js/glyphicons/ga.js"></script>
+     
+     <!--script for the address change -->
+     <script>
+   $(document).ready(function(){
+      $("#statesec").change(function(){
+	 var content = $("#statesec option:selected").val();
+	 $("#stateadd").text(content);
+	 
+	 });
+      
+      
+      });
+   
+</script>
+    
+    
+    </head>
+    <body>
+        <!-- Page Contents Starts
+            ================================================== -->
+        <div data-role="page" id="page" data-theme="">
+            <!-- header Starts -->
+            <div data-role="header" data-theme="g" class="header">
+                <h1><a href="index.html" rel="external">NYSC APP</a></h1>
+                <a href="#left-panel" data-shadow="false" ><i class="fa fa-indent fa-2x"></i></a>
+                <a href="#right-panel" data-shadow="false" ><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+            <!-- header Ends -->
+            <div data-role="content">                
+                <h1 class="">NYSC <strong> STATE SECRETARIATS </strong></h1>
+                <p>We cover Nigerian Youths all over the country. <br/>
+                Everywhere you go in Nigeria, you find our presence. <br/> 
+                Our state secretariats are always open for your enquiries, collaboration and support to serve the youths better.
+                </p>
+                <label for="statesec" class="select"><h4><b>LOCATE THE NEAREST NYSC SECRETARIAT BELOW </b></h4></label>
+                <hr>
+            <!-- /State Secretariats Starts -->                
+      
+      <div data-role="content" >     
+	  <select name="statesec" id="statesec" style="margin-left:0px">
+        	<option value="Please select a State">Choose a State</option>
+            <option value="NYSC Secretariat: St. Finbarr's Road ,        
+P.M.B 7225, Umuahia.
+Tel: 08161666141 
+Email: nyscabia2013@gmail.com
+"> ABIA (AB)</option>
+            <option value="NYSC Secretariat, Federal Govt. Sec  ,
+P.M.B 2252, Jimeta-Yola. 
+Tel: 08033505223 
+Email: adamawanysc@yahoo.com
+"> ADAMAWA (AD) </option>
+            <option value="NYSC Secretariat, Federal secretariat, 
+P.M.B 1087, Uyo.
+Tel: 08055233931 
+Email: nysc_akwaibom@yahoo.com, nyscakwaibom13@gmail.com
+"> AKWA IBOM (AK) </option>
+            <option value="NYSC Secretariat 12 Okpora Street ,
+P.M.B 4042, Amawbia, Awka.
+Tel: 08033481093. 
+Email: anambranysc@gmail.com
+"> ANAMBRA (AN) </option>
+            <option value="NYSC Secretariat Turaki Abdu Road, Fadamar Mada. 
+PMB 85, Bauch, Bauchi State. 
+Tel: 08038715255 
+Email: nyscsectbauchi@gmail.com
+"> BAUCHI (BA) </option>
+            <option value="NYSC Secretariat Block 7, Flat 1-4 Phase II, Civil Service/ FRSC Road , Yenogoa.
+Tel: 08069465275 
+Email: nyscbayelsastate@gmail.com
+"> BAYELSA (BY) </option>
+            <option value="NYSC Secretariat: Railway Bye-pass ,
+P.M.B 2358, Makurdi.
+Tel: 08037068138 
+Email: nyscbenue@gmail.com,
+nyscbenue@yahoo.com
+"> BENUE (BN) </option>
+            <option value="NYSC Secretariat Kashim Ibrahim Road, 
+P.M.B 1124, Maiduguri.
+Tel: 08030847753 
+Email: statenyscborno@yahoo.com
+"> BORNO (BO)</option>
+            <option value="NYSC Secretariat KM 5, Muritala Muhamed Way Ikot Ansa ,
+PMB 1148, Calabar.
+Tel: 08035816503 
+Email: coordnysccrs@hotmail.com
+"> CROSS RIVER (CR) </option>
+            <option value="NYSC Secretariat Federal Secretariat,
+P.M.B 5004, Asaba.
+Tel: 08160278619 
+Email: nyscdelta@yahoo.com
+"> DELTA (DT) </option>
+            <option value="NYSC Secretariat : 17 Nkwerre Street ,
+G.R.A, Abakaliki.
+Tel: 08034402075 
+Email: nysc.ebonyi@yahoo.com
+"> EBONYI (EB) </option>
+            <option value="NYSC Secretariat : 2 Red Cross Road off Ikpokpan Road, off Sapele Road, GRA Benin City. 
+Tel: 08160278619 
+Email: nysc_edo@yahoo.com
+"> EDO (ED) </option>
+            <option value="NYSC Secretariat: Kilometer 2, Iyin Road ,
+P.M.B 5302, Ado Ekiti.
+Tel: 08035689563 
+Email: ekitikopamails@yahoo.com
+"> EKITI (EK) </option>
+            <option value="NYSC Secretariat 2 Abakaliki Road G.R.A ,
+P.M.B 1293, Enugu.
+Tel: 08164595143. 
+Email: nysc.enugu@yahoo.com
+"> ENUGU (EN)</option>
+            <option value="NYSC Secretariat: No. 25 Ndola Crescent, off Michael Okpara Street (opposite Ibro Hotel) Zone 5, Wuse, Abuja. 
+Tel: 08174697345. 
+Email: fctnysc@yahoo.com
+"> FCT (ABUJA) (FC)</option>
+            <option value="NYSC Secretariat, along F.M.C/ Ashaka Road, 
+P.M.B. 036, Gombe,Gombe State. 
+Tel: 08033494368 
+Email: gombe.nysc@yahoo.com
+"> GOMBE (GM)</option>
+            <option value="NYSC Secretariat:Mbano Street Aladinma Housing Estate, Owerri. 
+Tel: 08035659691 
+Email: nyscimo2@yahoo.com
+"> IMO (IM)</option>
+            <option value="NYSC Secretariat Jigawa Road, 
+P.M.B 7049, Dutse. 
+Tel: 08023842654. 
+Email: nyscjigawa@yahoo.com
+"> JIGAWA (JG)</option>
+            <option value="NYSC Secretariat: Unguwa Rimi,
+P.M.B 2201, Kaduna.
+Tel: 08097103147 
+Email: nysckadunasec@gmail.com
+"> KADUNA (KD)</option>
+            <option value="NYSC Secretariat Gwarzo Road,
+P.M.B 3137, Kano.s
+Tel: 08065970600. 
+Email: nysckano@yahoo.com, nysckano@gmail.com
+"> KANO (KN)</option>
+            <option value="NYSC Secretariat Federal Secretariat Complex Katsina. 
+P.M.B 2034, Katsina.
+TEL: 08036132533 
+Email: nysckt@gmail.com
+"> KATSINA (KT)</option>
+            <option value="NYSC Secretariat 4 Patrick Aziza Road, 
+P.M.B 1043, Birnin Kebbi.
+Tel: 08033740843 
+Email: nysckebbistate@yahoo.com
+"> KEBBI (KB)</option>
+            <option value="NYSC State Secretariat Lokoja- Okene Road Lokongoma Phase 1, 
+P.M.B. 1046, Kogi State. 
+Tel: 08037870856 
+Email: nysckogistate@gmail.com
+"> KOGI (KG)</option>
+            <option value="NYSC Secretariat: Ahmadu Bello Way, 
+P.M.B 1512, Ilorin.
+Tel: 08035922260 
+Email: nysckwarastate@gmail.com
+"> KWARA (KW)</option>
+            <option value="NYSC Secretariat: Old Census Office Babs Animashun Street , Surulere Lagos. 
+Tel: 08037103033 
+Email: nysclagos@gmail.com
+"> LAGOS (LA)</option>
+            <option value="NYSC Secretariat: 26 Makurdi Road, 
+P.M.B 31, Lafia.
+Tel: 08023630991 
+Email: nysc_nasarawa@yahoo.com
+"> NASSARAWA (NS)</option>
+            <option value="NYSC Secretariat Bosso Road,
+P.M.B 83, Minna.
+Tel: 08036795263 
+Email: nyscnigerstate@yahoo.com
+"> NIGER (NG)</option>
+            <option value="NYSC Secretariat Fed. Govt. Secretariat,
+P.M.B 2093, Abeokuta. 
+Tel: 08162761900 
+Email: nysc_ogun@yahoo.com
+"> OGUN (OG)</option>
+            <option value="NYSC Secretariat Fed. Govt. Secretariat Complex,
+P.M.B 718, Akure.
+Tel: 08055646808 
+Email: ondostatenysc@yahoo.com
+"> ONDO (OD)</option>
+            <option value="NYSC Secretariat New Ikirun road,
+Omo-West, Osogbo.             
+P.M.B 4370, Osogbo.
+Tel: 08077161555  
+Email: nyscosunstate@hotmail.com
+"> OSUN (OS)</option>
+            <option value="NYSC Secretariat :Former 2, Mech. Drive. 
+P.M.B 5500, Ibadan. 
+Tel: 08035399787 
+Email: oyonysc@gmail.com
+"> OYO (OY)</option>
+            <option value="NYSC Secretariat: Old Miango Road, Kufan Opp.Chindi Hotel, 
+P.M.B 2258, Jos. 
+Tel: 07032804963 
+Email: plateauofficialnysc@gmail.com
+"> PLATEAU (PL)</option>
+            <option value="NYSC Secretariat :40 Ikwerre Road 
+P.M.B 5210, Port Harcourt.
+Tel: 08165868000 
+Email: nyscriversstate@gmail.com
+"> RIVERS (RV)</option>
+            <option value="NYSC Secretariat Birnin Kebbi Road , Sokoto.
+Tel: 08067315409 
+Email: nyscsokotostate@gmail.com
+"> SOKOTO (SO)</option>
+            <option value="NYSC Secretariat 118 Hammaruwa way, 
+PMB 1058 Jalingo, Taraba State. 
+Tel: 08036874082. 
+Email: nysctarabastate@gmail.com
+"> TARABA (TR)</option>
+            <option value="NYSC Secretariat State secretariat Phase 1, 
+P.M.B 1026, Damaturu.
+Tel: 08032616151 
+Email: nyscyobe13113@gmail.com
+"> YOBE (YB)</option>
+            <option value="NYSC Secretariat Sokoto Road , Gada Biyu, 
+P.M.B 1026, Gusau.
+Tel: 08035601633 
+Email: nysc_zamfara@yahoo.com
+"> ZAMFARA (ZM)</option>
+        </select>
+        <label for="statesec" class="select"><h4><b>Our SECRETARIAT is located at: </b></h4></label>
+        <div id="stateadd">
+        	
+            
+        </div>
+  </div>
+           <!-- /State Secretariats Ends -->                
+                <div class="footer">© NYSC 2016. All Rights Reserved.</div>
+            </div>
+            <!-- /content -->
+             <!-- Left Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="left-panel" data-theme="b">
+                <!-- Social Icons Starts -->
+                <div class="l-social-icons">
+                    <ul>
+                     <li><a href="http://www.nysc.gov.ng" rel="external" target="_blank"><img src="images/icons/social-icons/logosmall.png" width="60" height="60"></a></li>  
+                        <li><a href="https://facebook.com/officialnysc" rel="external" target="_blank"><img src="images/icons/social-icons/fb.png" width="36" height="36"></a></li>
+                        <li><a href="https://twitter.com/nysc_ng" rel="external" target="_blank"><img src="images/icons/social-icons/twitter.png" width="36" height="36"></a></li>                                            
+                        <li><a href="https://instagram.com/nysc_ng" rel="external" target="_blank"><img src="images/icons/social-icons/insta.png" width="36" height="36"></a></li>
+                    </ul>
+                </div>
+                <!-- Social Icons Ends -->
+                <!-- Main Menu Starts --> 
+                <div id="accordion">
+                    <ul id="items">
+                        <li>
+                            <a href="home.html" rel="external" class="activated"><i class="fa fa-home fa-2x"></i>HOME</a>
+                        </li>
+     
+             <li><a href="dgs.html" rel="external"><i class="fa fa-thumbs-up fa-2x"></i>MEET OUR DGs</a></li>                        					
+             <li><a href="bye_laws.html" rel="external"><i class="fa fa-legal (alias) fa-2x"></i>BYE-LAWS</a></li>		
+			                  
+                        <li>
+                        <a href="#"><i class="fa fa-location-arrow fa-2x"></i>LOCATE NYSC</a>
+                            <ul class="sub-items">
+							 <li>
+               <a href="ndhq.html" rel="external"><b> NYSC HEADQUATRES </b> </a>
+                             </li> 
+							 <li>
+               <a href="states.html" rel="external"><b> STATE SECRETARIATS </b></a>
+                             </li>  
+                             <li>
+             <a href="camps.html" rel="external"><b> ORIENTATION CAMPS </b></a>
+                             </li>                                                             
+                            </ul>
+                        </li>
+  <li><a href="faqs.html" rel="external"><i class="fa fa-lightbulb-o fa-2x"></i>FAQS</a></li>                
+   <li>
+   <a href="security.html" rel="external"><i class="fa fa-road fa-2x"></i>SECURITY TIPS</a></li>       <li><a href="health.html" rel="external"><i class="fa fa-ambulance fa-2x"></i>HEALTH TIPS</a></li>	     
+                     <li><a href="act.html" rel="external"><i class="fa fa-book fa-2x"></i>NYSC DECREE</a></li>        
+                      <li>
+                            <a href="#"><i class="fa fa-info fa-2x"></i>ABOUT</a>
+                            <ul class="sub-items">
+                                <li>
+                       <a href="aboutnysc.html" rel="external"><b> ABOUT NYSC </b> </a>
+                                </li>
+                                <li>
+                  <a href="aboutapp.html" rel="external"><b> ABOUT APP </b></a>
+                                </li>                                
+                            </ul>
+                        </li>                        
+                        
+                    </ul>
+                </div>
+                <!-- Main Menu Ends -->
+                <!-- Main Menu Ends -->
+            </div>
+            <!-- Left Panel Ends
+                ================================================== -->
+            <!-- Right Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="right-panel" data-position="right" data-theme="c">
+                <!-- Phone Number -->
+                <div class="r-phone"><a href="tel:092912257"><i class="fa fa-phone-square fa-2x"></i> 09-2912257 </a></div>
+                <!-- Latest Tweets Starts -->
+                
+                <!-- Latest Tweets Ends -->
+                <!-- Contact Info Starts -->
+                <div class="r-contact-info">
+                    <i class="fa fa-envelope fa-2x"></i><span class="heading">CONTACT US</span><br><br>
+                    <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;<strong>NYSC Directorate Headquarters</strong><br>
+                    Plot 416, Tigris Crescent <br>
+                    Off Aguiyi Ironsi Street, Maitama. <br> 
+                    PMB 138, Garki ,Abuja.  <br><br>
+                    <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;<a href="sms:08097870000"><span class="normal">SMS Message</span></a> <br>
+                    <i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:092912257">09-2912257</a> <br>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:info@nysc.gov.ng?bcc=mobileapp@nysc.gov.ng&subject=Request via NYSC Mobile App" target="_blank">info@nysc.gov.ng</a>
+                </div>
+                <!-- Contact Info Ends -->
+                               
+            </div>
+            <!-- Right Panel Ends
+                ================================================== -->
+               <!-- ToTop Starts
+                ================================================== -->  
+            <a href="#" class="scrollup">Scroll</a>      
+            <!-- ToTop Ends
+                ================================================== --> 
+        </div>
+        <!-- Page Contents Ends
+            ================================================== -->
+        <!-- Javascript Files
+            ================================================== -->   
+        <script src="owl-carousel/owl-carousel/owl.carousel.js"></script> <!-- Custom JS File -->
+        <script src="js/custom.js"></script> <script src="menu/js/main.js"></script>     
+        <!-- Twitter -->
+        
+        <!-- Retina Display -->
+        <script src="js/Retina/retina.js"></script>
+    </body>
+</html>

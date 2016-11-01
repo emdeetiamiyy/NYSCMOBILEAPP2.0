@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NYSC Mobile Application</title>
+        <!-- All Stylesheets -->
+        <link rel="stylesheet"  href="css/All-Stylesheets.css">
+        <!-- Add 2 Home -->
+        <link rel="apple-touch-icon" href="images/add-to-home/touch-icon-iphone.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="images/add-to-home/touch-icon-ipad.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="images/add-to-home/touch-icon-iphone4.png" />
+        <link rel="icon" type="image/png" href="icon.png" />
+        <script type="text/javascript" src="js/add2home.js" charset="utf-8"></script>
+        <!-- Javascript File -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <!-- Donut Chart -->
+        <script type="text/javascript" src="js/jquery.donutchart.js"></script>
+        <!-- jQuery Mobile -->
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <!-- Glyphicons -->
+        <script type="text/javascript" async src="js/glyphicons/ga.js"></script>
+        
+        
+    <script>
+   $(document).ready(function(){
+      $("#statecamp").change(function(){
+	 var content = $("#statecamp option:selected").val();
+	 $("#campadd").text(content);	 
+	 });
+      });
+   
+</script>
+
+    </head>
+    <body>
+        <!-- Page Contents Starts
+            ================================================== -->
+        <div data-role="page" id="page" data-theme="">
+            <!-- header Starts -->
+            <div data-role="header" data-theme="g" class="header">
+                <h1><a href="index.html" rel="external">NYSC APP</a></h1>
+                <a href="#left-panel" data-shadow="false" ><i class="fa fa-indent fa-2x"></i></a>
+                <a href="#right-panel" data-shadow="false" ><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+            <!-- header Ends -->
+            <div data-role="content">                
+                <h1 class="">NYSC <strong>ORIENTATION CAMPS </strong></h1>
+                <p> Prospective corps members are passed through the orientation exercise. <br/>
+                This is a combination of para-military activities and organized regimented training for 21 days. It is the very first phase of the SERVICE YEAR. <br/>
+                After you have collected your Call-Up letter, you are expected to report to the orientation camp.
+                </p>
+                <label for="statecamp" class="select"><b><h4>FIND OUR CAMP BELOW </b></h4></label>
+                <hr>
+            <!-- /State Secretariats Starts -->                
+      
+      <div data-role="content" >
+		<select name="statecamp" id="statecamp">
+        	<option value="Please select a State">Deployment State</option>
+            <option value="NYSC Permanent Orientation Camp, Umunna,
+             Bende Local Government Area, Abia State."> ABIA (AB)</option>
+            <option value="NYSC Permanent Orientation Camp,
+             Old Gongola Brewery Damare Village Along Lapondo Road, 
+             Girei LGA, Adamawa State."> ADAMAWA (AD) </option>
+            <option value="NYSC Permanent Orientation Camp, 
+            Ikot Itie Udung, Nsit Atai Local Government Area,
+             Akwa Ibom State."> AKWA IBOM (AK) </option>
+            <option value="NYSC Permanent Orientation Camp, 
+            Progressive Senior Secondary School, Umunya,
+             Oyi Local Government Area, Anambra State."> ANAMBRA (AN) </option>
+            <option value="NYSC Permanent Orientation Camp,
+             Wailo, Ganjuwa Local Government Council,
+              Bauchi State."> BAUCHI (BA) </option>
+            <option value="Kaiama Grammar School , Kaiama,
+             Kolokuma/Opokuma L.G.A Kaiama Grammar School, Kaiama,
+             Kolokoma-Opokuma Local Government Area,
+             Bayelsa State."> BAYELSA (BY) </option>
+            <option value="NYSC Permanent Orientation Camp,
+             Wannune, Tarka Local Government Area,
+              Kilometer 35 Makurdi Gboko Road,
+               Benue State."> BENUE (BN) </option>
+            <option value="NYSC Permanent Orientation Camp,
+            Biu Road, Maiduguri LGA, Maiduguri,
+            Borno State."> BORNO (BO)</option>
+            <option value="NYSC Permanent Orientation Camp,
+            Obubra, Obubra Local Government Area,
+            Cross River State."> CROSS RIVER (CR) </option>
+            <option value="NYSC Permanent Orientation Camp Former Martins TTC,
+            Issele-Uku, Aniocha North L.G.A.,
+            Delta State."> DELTA (DT) </option>
+            <option value="NYSC Permanent Orientation Camp,
+             Macgregor College, Afikpo Local Government Area,
+             Ebonyi State."> EBONYI (EB) </option>
+            <option value="Okada Grammar School, Okada,
+            Ovia North-East Local Government Area,
+            Edo State."> EDO (ED) </option>
+            <option value="NYSC Permanent Orientation Camp,
+            Ise-Orun/Emure Local Government Area,
+            Ekiti State."> EKITI (EK) </option>
+            <option value="NYSC Permanent Orientation Camp,
+            Awgu Local Government Area,
+            Enugu State."> ENUGU (EN)</option>
+            <option value="NYSC Permanent Orientation Camp,
+            Kubwa, Bwari Area Council,
+            FCT."> FCT (ABUJA) (FC)</option>
+            <option value="NYSC Permanent Orientation Camp,
+            Kilometer 27, Mallam Sidi, Kwame Local Government Area,
+            Gombe State."> GOMBE (GM)</option>
+            <option value="NYSC Permanent Orientation Camp,
+             Umudi Nkwerre Local Government Area,
+             Imo State."> IMO (IM)</option>
+            <option value="NYSC Permanent Camp, opposite Army Barrack,
+            Fanisua Dutse Local Government Area,
+            Jigawa State."> JIGAWA (JG)</option>
+            <option value="NYSC Permanent Orientation Camp, Kaduna – Abuja Road,
+            Kaduna State."> KADUNA (KD)</option>
+            <option value="NYSC Permanent Orientation Camp, Kusala Dam, Karaye,
+            Karaye Local Government,
+            Kano State."> KANO (KN)</option>
+            <option value="Youth Multi-purpose Centre/ NYSC Permanent Orientation Camp,
+            Mani Road, Katsina State."> KATSINA (KT)</option>
+            <option value="NYSC Temporary Orientation Camp, Government Science College,
+            Dakingari Local Government Area,
+            Kebbi State."> KEBBI (KB)</option>
+            <option value="NYSC Permanent Orientation Camp, Asaya,
+            Kabba Local Government Area,
+            Kogi State."> KOGI (KG)</option>
+            <option value="NYSC Permanent Orientation Camp, Yikpata,
+            Edu Local Government Area,
+            Kwara State."> KWARA (KW)</option>
+            <option value="NYSC Permanent Orientation Camp, Iyana Ipaja,
+            Agege, Lagos State."> LAGOS (LA)</option>
+            <option value="Magaji Dan-Yamusa Permanent Orientation Camp, Keffi,
+            Nasarawa State."> NASSARAWA (NS)</option>
+            <option value="NYSC Permanent Orientation Camp,
+            (Former Abubakar, Dada Senior Secondary School), Paiko,
+            Niger State."> NIGER (NG)</option>
+            <option value="NYSC Permanent Orientation Camp, Ikenne Road,
+            Sagamu Local Government Area, Sagamu,
+            Ogun State."> OGUN (OG)</option>
+            <option value="NYSC Permanent Orientation Camp, Ikare-Akoko Local Government Area,
+            Ondo State."> ONDO (OD)</option>
+            <option value="NYSC Permanent Orientation Camp, Aisu College Hospital Road,
+            Ede North Local Government Area, Ede,
+            Osun State."> OSUN (OS)</option>
+            <option value="Government Technical College, Iseyin Local Government Area,
+            Iseyin, Oyo State."> OYO (OY)</option>
+            <option value="NYSC Permanent Orientation Camp, Mangu, Mangu Local Government Area,
+            Plateau State."> PLATEAU (PL)</option>
+            <option value="NYSC Permanent Orientation Camp, Nonwa-Gbam Tai Local Government Area,
+            Rivers State."> RIVERS (RV)</option>
+            <option value="Government Technical College Farfaru, Farfaru Local Government Area,
+            Sokoto State."> SOKOTO (SO)</option>
+            <option value="Government College, Jalingo, Jalingo Local Government Area,
+            Taraba State."> TARABA (TR)</option>
+            <option value="NYSC Permanent Orientation Camp, Fika, Fika Local Government Area,
+            Yobe State."> YOBE (YB)</option>
+            <option value="NYSC Permanent Orientation Camp, Beside FRSC Office,
+            Tsafe Local Government Area, Zamfara State."> ZAMFARA (ZM)</option>
+        </select>
+        <label for="statecamp" class="select"><b><h4>Our ORIENTATION CAMP is located at: </b></h4></label>
+        <div id="campadd">          
+        	<p> </p>
+        </div>
+  </div>
+           <!-- /State Secretariats Ends -->                
+                <div class="footer">© NYSC 2016. All Rights Reserved.</div>
+            </div>
+            <!-- /content -->
+          <!-- Left Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="left-panel" data-theme="b">
+                <!-- Social Icons Starts -->
+                <div class="l-social-icons">
+                    <ul>
+                     <li><a href="http://www.nysc.gov.ng" rel="external" target="_blank"><img src="images/icons/social-icons/logosmall.png" width="60" height="60"></a></li>  
+                        <li><a href="https://facebook.com/officialnysc" rel="external" target="_blank"><img src="images/icons/social-icons/fb.png" width="36" height="36"></a></li>
+                        <li><a href="https://twitter.com/nysc_ng" rel="external" target="_blank"><img src="images/icons/social-icons/twitter.png" width="36" height="36"></a></li>                                            
+                        <li><a href="https://instagram.com/nysc_ng" rel="external" target="_blank"><img src="images/icons/social-icons/insta.png" width="36" height="36"></a></li>
+                    </ul>
+                </div>
+                <!-- Social Icons Ends -->
+                <!-- Main Menu Starts --> 
+                <div id="accordion">
+                    <ul id="items">
+                        <li>
+                            <a href="home.html" rel="external" class="activated"><i class="fa fa-home fa-2x"></i>HOME</a>
+                        </li>
+     
+             <li><a href="dgs.html" rel="external"><i class="fa fa-thumbs-up fa-2x"></i>MEET OUR DGs</a></li>                        					
+             <li><a href="bye_laws.html" rel="external"><i class="fa fa-legal (alias) fa-2x"></i>BYE-LAWS</a></li>		
+			                  
+                        <li>
+                        <a href="#"><i class="fa fa-location-arrow fa-2x"></i>LOCATE NYSC</a>
+                            <ul class="sub-items">
+							 <li>
+               <a href="ndhq.html" rel="external"><b> NYSC HEADQUATRES </b> </a>
+                             </li> 
+							 <li>
+               <a href="states.html" rel="external"><b> STATE SECRETARIATS </b></a>
+                             </li>  
+                             <li>
+             <a href="camps.html" rel="external"><b> ORIENTATION CAMPS </b></a>
+                             </li>                                                             
+                            </ul>
+                        </li>
+  <li><a href="faqs.html" rel="external"><i class="fa fa-lightbulb-o fa-2x"></i>FAQS</a></li>                
+   <li>
+   <a href="security.html" rel="external"><i class="fa fa-road fa-2x"></i>SECURITY TIPS</a></li>       <li><a href="health.html" rel="external"><i class="fa fa-ambulance fa-2x"></i>HEALTH TIPS</a></li>	     
+                     <li><a href="act.html" rel="external"><i class="fa fa-book fa-2x"></i>NYSC DECREE</a></li>        
+                      <li>
+                            <a href="#"><i class="fa fa-info fa-2x"></i>ABOUT</a>
+                            <ul class="sub-items">
+                                <li>
+                       <a href="aboutnysc.html" rel="external"><b> ABOUT NYSC </b> </a>
+                                </li>
+                                <li>
+                  <a href="aboutapp.html" rel="external"><b> ABOUT APP </b></a>
+                                </li>                                
+                            </ul>
+                        </li>                        
+                        
+                    </ul>
+                </div>
+                <!-- Main Menu Ends -->
+                <!-- Main Menu Ends -->
+            </div>
+            <!-- Left Panel Ends
+                ================================================== -->
+            <!-- Right Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="right-panel" data-position="right" data-theme="c">
+                <!-- Phone Number -->
+                <div class="r-phone"><a href="tel:092912257"><i class="fa fa-phone-square fa-2x"></i> 09-2912257 </a></div>
+                <!-- Latest Tweets Starts -->
+                
+                <!-- Latest Tweets Ends -->
+                <!-- Contact Info Starts -->
+                <div class="r-contact-info">
+                    <i class="fa fa-envelope fa-2x"></i><span class="heading">CONTACT US</span><br><br>
+                    <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;<strong>NYSC Directorate Headquarters</strong><br>
+                    Plot 416, Tigris Crescent <br>
+                    Off Aguiyi Ironsi Street, Maitama. <br> 
+                    PMB 138, Garki ,Abuja.  <br><br>
+                    <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;<a href="sms:08097870000"><span class="normal">SMS Message</span></a> <br>
+                    <i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:092912257">09-2912257</a> <br>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:info@nysc.gov.ng?bcc=mobileapp@nysc.gov.ng&subject=Request via NYSC Mobile App" target="_blank">info@nysc.gov.ng</a>
+                </div>
+                <!-- Contact Info Ends -->
+                               
+            </div>
+            <!-- Right Panel Ends
+                ================================================== -->
+                <!-- ToTop Starts
+                ================================================== -->  
+            <a href="#" class="scrollup">Scroll</a>      
+            <!-- ToTop Ends
+                ================================================== --> 
+        </div>
+        <!-- Page Contents Ends
+            ================================================== -->
+        <!-- Javascript Files
+            ================================================== -->   
+        <script src="owl-carousel/owl-carousel/owl.carousel.js"></script> <!-- Custom JS File -->
+        <script src="js/custom.js"></script> <script src="menu/js/main.js"></script>     
+        <!-- Twitter -->
+       
+        <!-- Retina Display -->
+        <script src="js/Retina/retina.js"></script>
+    </body>
+</html>
