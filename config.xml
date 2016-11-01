@@ -14,7 +14,7 @@
 	<!-- all: possible values handset, tablet, or universal -->
 	<!-- all: hides the status bar at the top of the screen -->
 	<preference name="fullscreen" value="true" />  
-	<preference name="phonegap-version"  value="cli-6.0.0" /> 
+	<preference name="phonegap-version"  value="cli-6.3.0" /> 
 
 	<preference name="orientation"   value="portrait" />  
 	<preference name="webviewbounce"  value="true" />  
