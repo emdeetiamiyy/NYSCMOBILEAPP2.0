@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.nyscmobile.admin" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+
+<name>NYSC</name>
+
+<description>
+The Official NYSC Mobile App...The National Youth Service Corps (NYSC) is finally in the pockets of Corps members.
+</description>
+
+
+<author href="http://nysc.gov.ng" email="mobileapp@nysc.gov.ng" >
+M.D.Tiamiyu (08097870000)
+
+</author>
+
+<!-- Define app icon for each platform. -->
+<icon src="icon.png" gap:role="default" /> 
+
+<!-- Define app splash screen for each platform. -->
+<gap:splash src="splash.png" />
+<!--
+        Enable individual API permissions here.
+        The "device" permission is required for the 'deviceready' event.
+    -->
+<feature name="http://api.phonegap.com/1.0/device" />
+
+
+<preference name="target-device" value="universal" />   
+<!-- all: possible values handset, tablet, or universal -->
+<!-- all: hides the status bar at the top of the screen -->
+
+<preference name="fullscreen" value="true" />  
+<<<<<<< HEAD
+<preference name="phonegap-version"  value="3.5.1" /> 
+=======
+<preference name="phonegap-version"  value="3.5.0" /> 
+>>>>>>> origin/master
+<preference name="orientation"   value="portrait" />  
+<preference name="target-device"  value="universal" />  
+<preference name="webviewbounce"  value="true" />  
+<preference name="prerendered-icon"   value="true" />
+<preference name="stay-in-webview"  value="false" />
+<preference name="disable-cursor"   value="false" />
+<preference name="android-installLocation"  value="auto" /> 
+
+<access origin="*" />
+
+
+
+</widget>
